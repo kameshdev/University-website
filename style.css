@@ -95,7 +95,7 @@ nav .fa{
 }
 
 /*-------------media for header (TABs)---------------*/
-@media(max-width:700px){
+@media(max-width:720px){
 	.main h1{
 		font-size:30px;
 	}
@@ -204,14 +204,14 @@ h2{
 
 
 
-/*--------------media for courses (tabs)--------------------------*/
+/*--------------media for courses and campus (tabs)--------------------------*/
 
-@media(max-width:700px){
+@media(max-width:720px){
 	.row{
 		flex-direction: column;
 	}
 }
-/*--------------media for courses (phones)--------------------------*/
+/*--------------media for courses & campus (phones)--------------------------*/
 @media(max-width:400px){
 	.row{
 		flex-direction: column;
@@ -345,7 +345,7 @@ h2{
 }
 
 /*--------------media for reviews (tabs)--------------------------*/
-@media(max-width:700px){
+@media(max-width:720px){
 	.reviews-col img{
 	margin-left:0;
 	margin-right:5px;
@@ -385,7 +385,7 @@ h2{
 }
 
 /*--------------media for cat (tabs)--------------------------*/
-@media(max-width:700px){
+@media(max-width:720px){
 
 .cta h3{
 	font-size: 25px;
@@ -541,7 +541,7 @@ h2{
 
 /*--------------media for blog (tabs)----------------------------*/
 
-@media(max-width:700px){
+@media(max-width:720px){
 	.main-blog h1{
 	font-size: 30px;
 
