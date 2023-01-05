@@ -94,7 +94,7 @@ nav .fa{
 	display: none;
 }
 
-
+/*-------------media for header (TABs)---------------*/
 @media(max-width:600px){
 	.main h1{
 		font-size:30px;
@@ -126,7 +126,40 @@ nav .fa{
 	padding: 10px;
 }
 }
+/*-------------media for header (Phones)---------------*/
+@media(max-width:400px){
+	.main h1{
+		font-size:25px;
+	}
+	.links ul li{
+		display: block;
+	}
+	.links {
+		background: #f44336;
+		height: 100vh;
+		width: 200px;
+		position: fixed;
+		top:0;
+		right: -200px;
+		text-align: left;
+		z-index: 2;
+		transition: 1s;
 
+	}
+	nav .fa{
+	display:block;
+	color: white;
+	font-size: 22px;
+	cursor: pointer;
+	margin: 10px;
+
+}
+.links ul{
+	padding: 8px;
+}
+}
+
+/*-----------Styles for courses-----------*/
 
 
 .courses{
@@ -171,18 +204,22 @@ h2{
 
 
 
-
+/*--------------media for courses (tabs)--------------------------*/
 
 @media(max-width:600px){
 	.row{
 		flex-direction: column;
 	}
 }
+/*--------------media for courses (phones)--------------------------*/
+@media(max-width:400px){
+	.row{
+		flex-direction: column;
+	}
+}
 
 
-
-
-
+/*--------------styles for campus--------------------------*/
 
 .campus{
 	width: 80%;
@@ -307,7 +344,16 @@ h2{
 	margin-top: 10px;
 }
 
+/*--------------media for reviews (tabs)--------------------------*/
+@media(max-width:600px){
+	.reviews-col img{
+	margin-left:0;
+	margin-right:5px;
 
+}
+
+}
+/*--------------media for reviews (phones)--------------------------*/
 @media(max-width:600px){
 	.reviews-col img{
 	margin-left:0;
@@ -318,6 +364,7 @@ h2{
 }
 
 
+/*------------styles for call to action --------------------------*/
 
 .cta{
 	width: 80%;
@@ -337,6 +384,7 @@ h2{
 	padding: 0;
 }
 
+/*--------------media for cat (tabs)--------------------------*/
 @media(max-width:600px){
 
 .cta h3{
@@ -344,6 +392,17 @@ h2{
 	
 }
 }
+
+/*--------------media for cat (phones)--------------------------*/
+@media(max-width:400px){
+
+.cta h3{
+	font-size: 20px;
+	
+}
+}
+
+/*----------------style for  footer section------------------------------*/
 
 .footer{
 	width: 100%;
@@ -369,7 +428,7 @@ h2{
 }
 
 
-
+/*----------------style for about scetion-------------------------*/
 
 .sub-header{
 	width: 100%;
@@ -480,9 +539,28 @@ h2{
 	padding-bottom: 10px;
 }
 
+/*--------------media for blog (tabs)----------------------------*/
+
 @media(max-width:600px){
 	.main-blog h1{
 	font-size: 30px;
+
+}
+.blog-col table{
+	
+	margin-left: 0;
+	font-size: 13px;
+   font-weight: 300;
+
+}
+
+
+}
+/*--------------media for blog (phones)----------------------------*/
+
+@media(max-width:400px){
+	.main-blog h1{
+	font-size: 22px;
 
 }
 .blog-col table{
